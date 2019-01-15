@@ -1,7 +1,7 @@
 'use strict';
 
 const superagent = require('superagent');
-const Users = require('../user-model.js');
+const Users = require('../users-model.js');
 
 const API = 'http://localhost:3000';
 const GTS = 'https://www.googleapis.com/oauth2/v4/token';
