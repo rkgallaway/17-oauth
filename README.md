@@ -1,14 +1,14 @@
-![CF](http://i.imgur.com/7v5ASc8.png) LAB
+![CF](http://i.imgur.com/7v5ASc8.png) LAB 17
 =================================================
 
-## Project Name: OAUTH - {Provider}
+## Project Name: OAUTH - {Git Hub}
 
-### Author: Student/Group Name
+### Author: Hannah Ingham, Jon DiQuattro, George Raymond, and Ryan Gallaway
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [back-end demo](http://xyz.com) 
-* [front-end demo](http://xyz.com)
+* [repo]https://github.com/rkgallaway/17-oauth)
+* [back-end demo](https://lab17-oauth-hi-jq-gr-rg.herokuapp.com) 
+* [front-end demo](localhost:8080)
 
 #### Documentation
 * [assessment report](./REPORT.md)
