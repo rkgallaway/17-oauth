@@ -20,18 +20,35 @@ users.pre('save', function(next) {
     .catch(console.error);
 });
 
+/**
+ *
+ *
+ * @param {*} auth
+ * @returns
+ */
 users.statics.authenticateBasic = function(auth) {
   let query = {username:auth.username};
   return this.findOne(query)
     .then( user => user && user.comparePassword(auth.password) )
     .catch(error => {throw error;});
 };
-
+/**
+ *
+ *
+ * @param {*} password
+ * @returns
+ */
 users.methods.comparePassword = function(password) {
   return bcrypt.compare( password, this.password )
     .then( valid => valid ? this : null);
 };
 
+/**
+ *
+ *
+ * @param {*} email
+ * @returns
+ */
 users.statics.createFromOauth = function(email) {
 
   if(! email) { return Promise.reject('Validation Error'); }

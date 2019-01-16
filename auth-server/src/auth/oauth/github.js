@@ -10,7 +10,30 @@ const util = require('util');
 const superagent = require('superagent');
 const SERVICE = `https://api.github.com/user?access_token=`;
 
-let authorize = (request) => {
+/**
+ *
+ *
+ * @param {*} request
+ * @returns
+ */
+let /**
+ *
+ *
+ * @param {*} response
+ * @returns
+ */
+/**
+ *
+ *
+ * @param {*} token
+ * @returns
+ */
+/**
+ *
+ *
+ * @param {*} response
+ */
+authorize = (request) => {
 
     return superagent.post(gitHubTokenServer)
     .send({

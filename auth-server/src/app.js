@@ -28,7 +28,7 @@ app.use(notFound);
 app.use(errorHandler);
 
 let isRunning = false;
-
+app.use('/doc', express.static('doc'));
 module.exports = {
   server: app,
   start: (port) => {
