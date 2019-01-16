@@ -6,8 +6,12 @@
 ### Author: Hannah Ingham, Jon DiQuattro, George Raymond, and Ryan Gallaway
 
 ### Links and Resources
-* [repo](https://github.com/rkgallaway/17-oauth)
-* [back-end demo](https://lab17-oauth-hi-jq-gr-rg.herokuapp.com) 
+* [web-server repo](https://github.com/rkgallaway/17-oauth-web-server)
+* [auth-server repo](https://github.com/rkgallaway/17-oauth-auth-server)
+
+* [back-end auth-server demo](https://lab17-oauth-auth-server.herokuapp.com) 
+* [back-end web-server demo](https://lab17-oauth-web-server.herokuapp.com) 
+
 * [front-end demo](localhost:8080)
 
 #### Documentation
