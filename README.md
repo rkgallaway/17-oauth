@@ -6,7 +6,7 @@
 ### Author: Hannah Ingham, Jon DiQuattro, George Raymond, and Ryan Gallaway
 
 ### Links and Resources
-* [repo]https://github.com/rkgallaway/17-oauth)
+* [repo](https://github.com/rkgallaway/17-oauth)
 * [back-end demo](https://lab17-oauth-hi-jq-gr-rg.herokuapp.com) 
 * [front-end demo](localhost:8080)
 
@@ -14,14 +14,15 @@
 * [assessment report](./REPORT.md)
 
 ### Modules
-#### `auth/middleware/oauth/{filename}.js`
-* List any usage/requirement notes in here
+#### `auth/middleware/oauth/github.js`
+* Must have a Github account in order to test
 
 ##### Implementation Notes
-* Must the server be secured?  How?
-* Required ENV Variables
-* Accessing the server
-* OAuth Link 
+* Server not secured, not required, used Oauth
+* .env: CLIENT_ID, GITHUB_ID_SECRET
+* nodemon on localhost:3000 
+* nodemon on localhost:8080
+* OAuth Link: localhost:3000/oauth
 
 #### UML
-Link to an image of the UML for your application code and response to events
+![Oauth UML](./assets/oauth-uml.jpg)
