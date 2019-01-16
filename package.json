@@ -1,17 +1,22 @@
 {
-  "name": "web-server",
+  "name": "17-oauth",
   "version": "1.0.0",
-  "description": "",
+  "description": "![CF](http://i.imgur.com/7v5ASc8.png) LAB 17 =================================================",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkgallaway/17-oauth.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkgallaway/17-oauth/issues"
+  },
   "dependencies": {
-
-    "dotenv": "^6.2.0",
-    "express": "^4.16.3"
     "bcrypt": "^3.0.2",
     "cors": "^2.8.4",
     "debug": "^4.1.0",
@@ -26,6 +31,7 @@
     "require-directory": "^2.1.1",
     "supertest": "^3.3.0",
     "swagger-ui-express": "^4.0.2"
+  },
 
-  }
+  "homepage": "https://github.com/rkgallaway/17-oauth#readme"
 }
